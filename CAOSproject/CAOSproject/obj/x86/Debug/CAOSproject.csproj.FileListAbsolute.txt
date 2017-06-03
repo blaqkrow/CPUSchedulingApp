@@ -1,0 +1,39 @@
+C:\Users\User\documents\visual studio 2010\Projects\CAOSproject\CAOSproject\bin\Debug\CAOSproject.exe
+C:\Users\User\documents\visual studio 2010\Projects\CAOSproject\CAOSproject\bin\Debug\CAOSproject.pdb
+C:\Users\User\documents\visual studio 2010\Projects\CAOSproject\CAOSproject\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\User\documents\visual studio 2010\Projects\CAOSproject\CAOSproject\obj\x86\Debug\CAOSproject.Form1.resources
+C:\Users\User\documents\visual studio 2010\Projects\CAOSproject\CAOSproject\obj\x86\Debug\CAOSproject.Properties.Resources.resources
+C:\Users\User\documents\visual studio 2010\Projects\CAOSproject\CAOSproject\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\User\documents\visual studio 2010\Projects\CAOSproject\CAOSproject\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\User\documents\visual studio 2010\Projects\CAOSproject\CAOSproject\obj\x86\Debug\CAOSproject.exe
+C:\Users\User\documents\visual studio 2010\Projects\CAOSproject\CAOSproject\obj\x86\Debug\CAOSproject.pdb
+C:\Users\BLaQkRoW\Desktop\CAOSproject\CAOSproject\obj\x86\Debug\CAOSproject.exe
+C:\Users\BLaQkRoW\Desktop\CAOSproject\CAOSproject\bin\Debug\CAOSproject.exe
+C:\Users\BLaQkRoW\Desktop\CAOSproject\CAOSproject\bin\Debug\CAOSproject.pdb
+C:\Users\BLaQkRoW\Desktop\CAOSproject\CAOSproject\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\BLaQkRoW\Desktop\CAOSproject\CAOSproject\obj\x86\Debug\CAOSproject.Form1.resources
+C:\Users\BLaQkRoW\Desktop\CAOSproject\CAOSproject\obj\x86\Debug\CAOSproject.Properties.Resources.resources
+C:\Users\BLaQkRoW\Desktop\CAOSproject\CAOSproject\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\BLaQkRoW\Desktop\CAOSproject\CAOSproject\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\BLaQkRoW\Desktop\CAOSproject\CAOSproject\obj\x86\Debug\CAOSproject.pdb
+C:\Users\BLaQkRoW\Desktop\CAOSproject\CAOSproject\obj\x86\Debug\CAOSproject.Form2.resources
+F:\CAOSproject\CAOSproject\obj\x86\Debug\CAOSproject.exe
+F:\CAOSproject\CAOSproject\obj\x86\Debug\CAOSproject.pdb
+F:\CAOSproject\CAOSproject\bin\Debug\CAOSproject.exe
+F:\CAOSproject\CAOSproject\bin\Debug\CAOSproject.pdb
+F:\CAOSproject\CAOSproject\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\CAOSproject\CAOSproject\obj\x86\Debug\CAOSproject.Form1.resources
+F:\CAOSproject\CAOSproject\obj\x86\Debug\CAOSproject.Form2.resources
+F:\CAOSproject\CAOSproject\obj\x86\Debug\CAOSproject.Properties.Resources.resources
+F:\CAOSproject\CAOSproject\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\CAOSproject\CAOSproject\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\CAOSproject\CAOSproject\obj\x86\Debug\CAOSproject.exe
+E:\CAOSproject\CAOSproject\obj\x86\Debug\CAOSproject.pdb
+E:\CAOSproject\CAOSproject\bin\Debug\CAOSproject.exe
+E:\CAOSproject\CAOSproject\bin\Debug\CAOSproject.pdb
+E:\CAOSproject\CAOSproject\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\CAOSproject\CAOSproject\obj\x86\Debug\CAOSproject.Form1.resources
+E:\CAOSproject\CAOSproject\obj\x86\Debug\CAOSproject.Form2.resources
+E:\CAOSproject\CAOSproject\obj\x86\Debug\CAOSproject.Properties.Resources.resources
+E:\CAOSproject\CAOSproject\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\CAOSproject\CAOSproject\obj\x86\Debug\GenerateResource.write.1.tlog

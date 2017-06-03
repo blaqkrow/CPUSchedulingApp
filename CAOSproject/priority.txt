@@ -1,0 +1,78 @@
+//no. of processes
+            n = 5;
+
+            //burst times
+            bt[0] = Convert.ToInt32(BTime0TB.Text);
+            bt[1] = Convert.ToInt32(BTime1TB.Text);
+            bt[2] = Convert.ToInt32(BTime2TB.Text);
+            bt[3] = Convert.ToInt32(BTime3TB.Text);
+            bt[4] = Convert.ToInt32(BTime4TB.Text);
+
+            //priority
+            pt[0] = Convert.ToInt32(priority0TB.Text);
+            pt[1] = Convert.ToInt32(priority1TB.Text);
+            pt[2] = Convert.ToInt32(priority2TB.Text);
+            pt[3] = Convert.ToInt32(priority3TB.Text);
+            pt[4] = Convert.ToInt32(priority4TB.Text);
+
+            //Arrival Time
+            at[0] = Convert.ToInt32(ATime0TB.Text);
+            at[1] = Convert.ToInt32(ATime1TB.Text);
+            at[2] = Convert.ToInt32(ATime2TB.Text);
+            at[3] = Convert.ToInt32(ATime3TB.Text);
+            at[4] = Convert.ToInt32(ATime4TB.Text);
+
+            for (i = 0; i < n; i++) // i from 0-4
+            {
+                for (j = i + 1; j < n; j++)
+                {
+                    if (at[i] == at[j])
+                        if (pt[i] > pt[j])
+                        {
+                            a=at[i];
+                            at[i]=at[j];
+                            at[j]=a;
+                            t = pt[i];// arrange pt array from highest priority to lowest
+                            pt[i] = pt[j];
+                            pt[j] = t;
+                            q = bt[i]; // arrange bt array from smallest burst time to biggest
+                            bt[i] = bt[j];
+                            bt[j] = q;
+                        }
+
+                    if (at[i] != at[j])
+                        if (at[i] > at[j])
+                        {
+                            a = at[i];
+                            at[i] = at[j];
+                            at[j] = a;
+                            t = pt[i];// arrange pt array from highest priority to lowest
+                            pt[i] = pt[j];
+                            pt[j] = t;
+                            q = bt[i]; // arrange bt array from smallest burst time to biggest
+                            bt[i] = bt[j];
+                            bt[j] = q;
+                        }
+                }
+            }
+
+            wt[0] = 0; // first process waiting time is always 0
+            int ttt = 0;
+            for (i = 0; i < n; i++)
+            {
+                wt[i + 1] = wt[i] + bt[i]; //waiting time of next proccess is waiting time of previous + burst time of previous
+                sum = sum + (wt[i] - at[i]); //sum of waiting time
+                tt[i] = wt[i] + bt[i];
+                ttt = ttt + tt[i]; // sum of turnaround time
+                sbt = sbt + (wt[i + 1] - at[i]);
+            }
+
+            avgwt = (float)sum / n;
+            avgtt = (float)sbt / n;
+
+            MessageBox.Show("Avg TT: " + avgtt);
+            MessageBox.Show("Avg WT: " + avgwt);
+
+            sbt = 0;
+            sum = 0;
+           
